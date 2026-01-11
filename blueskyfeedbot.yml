@@ -26,7 +26,7 @@ jobs:
         uses: 'joschi/blueskyfeedbot@v1'
         with:
           # This is the RSS feed you want to publish
-          rss-feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCVPkZh_H6m_stW8hq-2-yNw
+          rss-feed: https://www.google.ca/alerts/feeds/09994821105662747633/16480865196687701159
           # Template of status posted to Bluesky (Handlebars)
           template: |
             {{item.title}}
